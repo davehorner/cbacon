@@ -1,6 +1,12 @@
 # cbacon
 
-**cbacon** is a Rust-based tool that reads a bacon file containing warning messages and opens the first warning location in Visual Studio Code (VSCode). It emulates a Python script by automatically opening your project workspace in VSCode, parsing warning messages from a file, and navigating directly to the relevant file location using VSCode's --goto and --wait flags.
+**cbacon** is a Rust-based tool that reads a bacon file containing line references and opens the first reference location in Visual Studio Code (VSCode). It emulates a Python script by automatically opening your project workspace in VSCode, parsing warning/error messages from a file, and navigating directly to the relevant file location using VSCode's --goto and --wait flags.
+
+I've been using a simple python script to provide an experience much like nvim-bacon but for vscode.  Run bacon, run cbacon.  I decided to make it into a rust program too.
+
+Combined with bacon, cbacon navigates between errors and warnings without leaving your editor, just hitting a key. (close the current editor/workspace)
+
+I would like to see something like this integrated into bacon itself, but in the meantime, here is how I use bacon sometimes.
 
 ## Features
 
