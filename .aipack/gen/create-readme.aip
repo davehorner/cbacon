@@ -1,0 +1,6 @@
+<<main.rs>>
+====
+I need a readme in markdown the projects name is cbacon my name is David Horner and the license is MIT with the current date
+=====
+write me a script that will write that to disk, use a different token when storing the triple ticks of the output, then when written replace the replacement token with the triple ticks.
+
